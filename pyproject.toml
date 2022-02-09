@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gnn-etude"
+version = "0.1.0"
+description = ""
+authors = ["cympfh <cympfh@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jraph = "^0.0.2-alpha.0"
+dm-haiku = {git = "https://github.com/deepmind/dm-haiku.git", rev = "v0.0.5"}
+optax = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+python-language-server = "^0.36.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
